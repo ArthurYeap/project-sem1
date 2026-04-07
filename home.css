@@ -39,7 +39,8 @@ header ul {
     gap: 20px;
     margin-top: 1rem;
     scale: 0.6
-    justify-content: right;
+    justify-content: center;
+    allign-items: center;
 }
 /* header end */
 
