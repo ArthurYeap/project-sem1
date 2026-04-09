@@ -1,0 +1,48 @@
+.team {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.people {
+    text-align: center;
+    padding: 20px;
+    height: 45rem;
+}
+.one {
+    background-color: rgb(120, 87, 181);
+}
+.two {
+    background-color: rgb(135, 69, 69);
+}
+.three {
+    background-color: rgb(64, 193, 111);
+}
+.four {
+    background-color: rgb(209, 230, 109);
+}
+.five {
+    background-color: rgb(38, 37, 68);
+}
+.six {
+    background-color: rgb(153, 97, 60);
+}
+.team img {
+    position: relative;
+    height: 35rem;
+    top: 2rem;
+    border-radius: 1rem;
+    margin:0;
+}
+.box {
+    transition: 0.3s;
+}
+.box:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+h1 { margin-bottom: -1rem;
+    margin-top: 1.5rem;
+}
+h2 {
+    position: relative;
+}
