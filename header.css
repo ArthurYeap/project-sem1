@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(233, 239, 154);
-    width: 100%;
+    width: 100% !important;
     height: 250vh;
 }
 a {
@@ -23,9 +23,9 @@ header {
 header ul {
     display: flex;
     gap: 20px;
-    margin-left: 64rem;
-    justify-content: center;
-    align-items: center;
+    margin-left: 63rem !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 header img {
     width: 8rem !important;
