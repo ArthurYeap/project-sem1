@@ -21,7 +21,7 @@ li {
 /* background start */
 .cake-bg {
     height: 100vh; /* not full page */
-    background-image: url("cake bg.png");
+    background-image: url('cake bg.png');
     background-size: cover;
     background-position: 100% 90%;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ li {
 .btn-12:after,
 .btn-12:before {
     background: linear-gradient(90deg, #bb4e4e 25%, transparent 0, transparent 50%, #bb4e4e 0, #bb4e4e 75%, transparent 0);
-    content: "";
+    content: '';
     inset: 0;
     position: absolute;
     transform: translateY(var(--progress, 100%));
@@ -279,3 +279,124 @@ iframe:hover {
     fill: rgb(250, 74, 74, 0.8);
 }
 /* address end */
+
+/* responsive - media qurrey  */
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+    header {
+        padding: 1rem;
+    }
+
+    header ul {
+        gap: 1rem;
+    }
+
+    .motto p {
+        font-size: 1.3rem !important;
+    }
+
+    .awards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .awards-logo {
+        max-width: 100px;
+    }
+
+    .location {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 300px;
+    }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    /* HERO TEXT */
+    .motto h1 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .motto p {
+        font-size: 1rem !important;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    /* BUTTON */
+    .btn-12 {
+        display: block;
+        text-align: center;
+        width: fit-content;
+        margin: 1rem auto;
+    }
+
+    /* AWARDS */
+    .awards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .awards-logo {
+        max-width: 90px;
+    }
+
+    /* CAROUSEL FIX */
+    .card {
+        width: 240px !important;
+    }
+
+    /* LOCATION */
+    .location {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    iframe {
+        height: 250px !important;
+    }
+}
+
+/* ================= SMALL PHONE ================= */
+@media (max-width: 480px) {
+    .motto h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .motto p {
+        font-size: 0.95rem !important;
+    }
+
+    .card {
+        width: 200px !important;
+    }
+
+    .awards-logo {
+        max-width: 75px;
+    }
+
+    header img.logo {
+        max-height: 50px;
+    }
+}

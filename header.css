@@ -23,7 +23,7 @@ header {
 header ul {
     display: flex;
     gap: 20px;
-    margin-left: 63rem !important;
+    margin-left: 75rem !important;
     justify-content: center !important;
     align-items: center !important;
 }
